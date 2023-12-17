@@ -1,0 +1,42 @@
+Git is a version control system.
+To use Git, you need to install Git on your system.
+Git Bash is a terminal that you can use to work with Git.
+
+1. Set your user name and email
+- git config --global user.name "Yejin Shin"
+
+After you run this, check your user name using the following:
+git config user.name
+
+- git config --global user.email roinashin@gmail.com
+
+Likewise, check your user email using the following:
+git config user.email
+
+2. Basic commands
+
+pwd : to know your present working diretory
+touch : create file
+rm : delete file
+rm -rf : delete folder
+('rf' stands for 'recursive force')
+
+3. Repository
+- git status
+- git init : to create a new git Repository
+
+After you run this, you will see .git folder which is hidden.
+
+3. Commit
+
+Commit is a checkpoint in time in your repository.
+It's a series of changes you make in time within a project.
+
+Think of the analogy of tweezers that you use to select ones that you want to make a group for a commit.
+
+There are 3 steps in commit process.
+
+1) Working Directory 2) Staging Area 3) Repository
+
+To move on to Staging Area, we use "git add [file name] [file name2]"
+To finalize adding them to repo step, we use "git commit [file name] [file name2]"

@@ -40,3 +40,8 @@ There are 3 steps in commit process.
 
 To move on to Staging Area, we use "git add [file name] [file name2]"
 To finalize adding them to repo step, we use "git commit [file name] [file name2]"
+
+When launching a git commit, it's a good practice to add a commit message.
+
+Run this:
+git commit -m "Git Study Day 1: Git basics and command lines, How to commit, etc"

@@ -30,3 +30,7 @@ referring to different commits, and switch between them by moving head.
 5) switch to another branch : git switch [name]
 
 6) switch back to master : git switch master
+
+7) 'git checkout [name]' does exactly the same thing as 'git switch'
+
+8) create and go straight to the branch : git switch -c [name]

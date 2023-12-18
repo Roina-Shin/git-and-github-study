@@ -14,8 +14,14 @@ When you are finished inserting text, enter escape(esc) key.
 To get out of the editor after saving use the following:
 :wq : write(save) and quit
 
-* Use VS Code as your default editor
+* Use VS Code as your global editor
 
-Use this command to make VS Code as your default editor:
+Use this command to make VS Code as your global editor:
 
 git config --global core.editor "code --wait"
+
+* Use Vim as your global editor
+
+Use this command to make Vim as your global editor
+
+git config --global core.editor "vim"

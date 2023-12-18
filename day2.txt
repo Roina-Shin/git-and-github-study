@@ -1,3 +1,15 @@
 git add . : the dot (.) will stage all changes at once.
 
 git log : see the changes in a log
+
+When you just write 'git commit' then vim pops up.
+
+* How to use vim
+
+It's a editor that is built in Linux system.
+To insert a text, enter 'i'.
+
+When you are finished inserting text, enter escape(esc) key.
+
+To get out of the editor after saving use the following:
+:wq : write(save) and quit

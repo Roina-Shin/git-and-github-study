@@ -47,7 +47,7 @@ referring to different commits, and switch between them by moving head.
 
 git branch -d [branch name]
 
-* ATTENTION! When you have conflicts upon merging
+* Important!!! When you have conflicts upon merging
 
 1) When making conflicing changes in other branches and trying to merge that
 into the master, you run into an issue.

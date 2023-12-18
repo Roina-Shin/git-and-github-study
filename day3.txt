@@ -17,3 +17,15 @@ different directions.
 We can have all these different branch pointers, heads, 
 referring to different commits, and switch between them by moving head.
 
+* commands
+
+1) type git branch
+
+2) As we only have master branch, we see *master.
+
+3) To get out of there, type 'q'.
+
+4) make a new branch : git branch [name]
+
+5) switch to another branch : git switch [name]
+

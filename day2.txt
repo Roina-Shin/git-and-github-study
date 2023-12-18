@@ -32,3 +32,11 @@ To format your git log so that you see one line for each change,
 use the following:
 
 git log --oneline
+
+
+* Amend changes to your previous commit
+
+To redo the commit messages:
+
+git commit --amend : open editor to redo the commit message
+

@@ -1,0 +1,19 @@
+Until now, our commit is done in a linear fashion.
+
+But in reality the changes are made in many different ways.
+
+Branching is a signature feature of git.
+
+They allow us to create separate contexts and whatever we do 
+in branch won't impact other branches until we decide to 'merge'.
+
+We are still on our master branch.
+When you make a new git repository, it automatically becomes a master branch.
+
+Head is a pointer in current location.
+At any point, we can create different branches and splinter off into 
+different directions.
+
+We can have all these different branch pointers, heads, 
+referring to different commits, and switch between them by moving head.
+

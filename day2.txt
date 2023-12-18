@@ -25,3 +25,10 @@ git config --global core.editor "code --wait"
 Use this command to make Vim as your global editor
 
 git config --global core.editor "vim"
+
+* See git log in one line
+
+To format your git log so that you see one line for each change,
+use the following:
+
+git log --oneline

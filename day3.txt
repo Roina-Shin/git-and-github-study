@@ -17,7 +17,7 @@ different directions.
 We can have all these different branch pointers, heads, 
 referring to different commits, and switch between them by moving head.
 
-* commands
+* Branch commands
 
 1) type git branch
 
@@ -34,3 +34,11 @@ referring to different commits, and switch between them by moving head.
 7) 'git checkout [name]' does exactly the same thing as 'git switch'
 
 8) create and go straight to the branch : git switch -c [name]
+
+
+* Merge commands
+
+1) First move over to master branch
+
+2) Use this command : git merge [branch name to be merged to master]
+

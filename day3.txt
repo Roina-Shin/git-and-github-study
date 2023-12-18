@@ -42,3 +42,19 @@ referring to different commits, and switch between them by moving head.
 
 2) Use this command : git merge [branch name to be merged to master]
 
+
+* Delete branches
+
+git branch -d [branch name]
+
+* ATTENTION! When you have conflicts upon merging
+
+1) When making conflicing changes in other branches and trying to merge that
+into the master, you run into an issue.
+
+2) It will automatically open the editor, and you see all the changes to the
+original file.
+
+3) Edit them accordingly (it's up to you as a final editor) and save the changes.
+
+4) git status > git add [file name] > git commit

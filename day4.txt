@@ -1,0 +1,10 @@
+About Git clone
+
+Git init is to create a new repository in your machine.
+Git clone is to go to a Git repository that is not in your machine,
+and it brings that repository to your machine.
+
+Git clone + <url>
+
+The above command will retrieve all of the associated files to the repository, and it will copy them to your machine.
+

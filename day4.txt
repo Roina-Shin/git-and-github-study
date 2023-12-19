@@ -8,3 +8,60 @@ Git clone + <url>
 
 The above command will retrieve all of the associated files to the repository, and it will copy them to your machine.
 
+** Important! Using GitHub
+
+1) Fist, sign up for GitHub
+
+2) Use the same email you configured in your local Git machine.
+
+3) Create SSH key:
+(1) https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+(2) Open terminal and paste the following:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+(3) If prompted where to save the key, just enter to save it in the default ssh folder.
+
+(4) Enter the passphrase.
+
+(5) Start SSH agent in the bakcground:
+eval "$(ssh-agent -s)"
+->Agent pid ####
+
+(6) Run the below command:
+ssh-add -k ~/.ssh/id_ed25519
+
+(7) Run the following command:
+notepad ~/.ssh/id_ed25519.pub
+
+(8) Grab the key and go to github profile and settings.
+
+(9) Go to SSH and GPG Keys and click 'New SSH key"
+
+(10) Give it an appropriate title and paste the key
+
+4) Alright, it's time to create GitHub repo!
+
+If you have an existing repo in your local machine, you can get it on to GitHub.
+
+ (1) First, create a new repository in GitHub
+
+ (2) Return to your local Git and run the following command:
+
+ git remote -v
+ (To see existing remote repository)
+
+ (3) git remote add origin <your new repo url>
+ With this, you let your local Git know this url is origin for the current Git repository.
+
+ (4) Check the connection between your local and Github repo by:
+ 
+ git remote -v
+
+ (5) To push your code to remote repo:
+
+ git push <remote> <branch>
+
+ e.g.) git push origin master
+
+ 
